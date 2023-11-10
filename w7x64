@@ -15,7 +15,7 @@ nohup ./ngrok tcp 3388 &>/dev/null &
 echo "===================================="
 echo Downloading File From akuh.net
 echo "===================================="
-apt-get install qemu > /dev/null 2>&1
+apt-get install qemu-system-x86 > /dev/null 2>&1
 echo "===================================="
 echo "Wait"
 echo "===================================="
